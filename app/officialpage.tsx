@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Linking, StyleSheet, Text, View } from 'react-native';
+import { Linking, StyleSheet, Text, View } from 'react-native';
 
 export default function OfficialPage() {
   const openArticle = () => {
@@ -12,8 +12,12 @@ export default function OfficialPage() {
       <Text style={styles.description}>
         This app uses React Native. You can learn more from the official docs.
       </Text>
-
-      <Button title="Open React Native Docs" onPress={openArticle} color="#1565c0" />
+      <Text>
+        list of product
+      </Text>
+       <Text>
+        list of productssss
+      </Text>
     </View>
   );
 }
