@@ -15,6 +15,9 @@ export default function OfficialPage() {
       <Text>
         list of product
       </Text>
+       <Text>
+        list of productssss
+      </Text>
     </View>
   );
 }
